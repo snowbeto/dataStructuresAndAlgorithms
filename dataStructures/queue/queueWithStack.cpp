@@ -118,7 +118,7 @@ class QueueWithExpensiveDequeue: public Queue<T>{
 };
 
 template <class T>
-void testQueue(Queue<T> &queue){
+void testQueue(Queue<int> &queue){
   for(int i = 0; i < 10; i ++)
   {
     queue.enqueue(i);
